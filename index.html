@@ -21,11 +21,17 @@ canvas {
 	cursor: crosshair;
 	display: block;
 }
+#logo {
+    align-items: center;
+	width: 500;
+}
 </style>
 <body>
 <!-- setup our canvas element -->
 <canvas id="canvas">Canvas is not supported in your browser.</canvas>
-
+<div style="visibility: hidden;">
+	<embed src="fireworks.mp3" autostart="true" loop="true">
+	</div> 
 <script>
 setTimeout("location.href = 'Birthday.html';",10000);
 </script>
@@ -309,8 +315,6 @@ window.onload = loop;
 
 
 </script>
-<div style="visibility: hidden;">
-	<embed src="fireworks.mp3" autostart="true" loop="true">
-	</div>   
+  
 </body>
 </html>
